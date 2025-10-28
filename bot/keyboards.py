@@ -9,7 +9,7 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     
     builder.add(InlineKeyboardButton(
-        text="Перевод текста",
+        text="🗣️Перевод текста",
         callback_data="translation_menu"
     ))
     builder.add(InlineKeyboardButton(
