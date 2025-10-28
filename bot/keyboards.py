@@ -82,7 +82,7 @@ def get_history_keyboard(history_items: list) -> InlineKeyboardMarkup:
         ))
     
     builder.add(InlineKeyboardButton(
-        text="Назад в меню",
+        text="⬅️Назад в меню",
         callback_data="back_to_main"
     ))
     
