@@ -59,7 +59,7 @@ def get_share_keyboard(text: str) -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     
     builder.add(InlineKeyboardButton(
-        text="Перевести еще",
+        text="➕Перевести еще",
         callback_data="translate_again"
     ))
     builder.add(InlineKeyboardButton(
