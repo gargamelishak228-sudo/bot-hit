@@ -63,7 +63,7 @@ def get_share_keyboard(text: str) -> InlineKeyboardMarkup:
         callback_data="translate_again"
     ))
     builder.add(InlineKeyboardButton(
-        text="Главное меню",
+        text="⬅️Главное меню",
         callback_data="back_to_main"
     ))
     
