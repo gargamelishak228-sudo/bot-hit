@@ -25,7 +25,7 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
         callback_data="search_menu"
     ))
     builder.add(InlineKeyboardButton(
-        text="Помощь",
+        text="❓Помощь",
         callback_data="help_menu"
     ))
     
