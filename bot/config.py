@@ -8,7 +8,7 @@ class Settings:
     """Настройки бота."""
     
     def __init__(self):
-        self.bot_token = "8408362344:AAHIyzDtqbxY8nEHO6iAngg7bzAHCl_AtwI"
+        self.bot_token = "8026330490:AAEOZQ8QM4J4V3E9D-7a2p3qGLZNciNlQW8"
         self.admin_id = 1447955117
         if self.admin_id:
             try:
