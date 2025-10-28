@@ -307,7 +307,7 @@ async def help_command(callback: CallbackQuery):
 
 Нужна помощь?
 Обращайся к администратору
-"""
+@pupupuuo"""
     
     await callback.message.edit_text(
         help_text,
