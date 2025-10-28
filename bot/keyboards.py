@@ -13,7 +13,7 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
         callback_data="translation_menu"
     ))
     builder.add(InlineKeyboardButton(
-        text="История поиска",
+        text="⏳История поиска",
         callback_data="history_menu"
     ))
     builder.add(InlineKeyboardButton(
