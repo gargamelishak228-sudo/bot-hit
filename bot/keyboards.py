@@ -21,7 +21,7 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
         callback_data="random_word"
     ))
     builder.add(InlineKeyboardButton(
-        text="Поиск по словарю",
+        text="🔍Поиск по словарю",
         callback_data="search_menu"
     ))
     builder.add(InlineKeyboardButton(
