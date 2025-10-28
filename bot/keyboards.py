@@ -17,7 +17,7 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
         callback_data="history_menu"
     ))
     builder.add(InlineKeyboardButton(
-        text="Случайное слово",
+        text="🔀Случайное слово",
         callback_data="random_word"
     ))
     builder.add(InlineKeyboardButton(
