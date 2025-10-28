@@ -46,7 +46,7 @@ def get_translation_type_keyboard() -> InlineKeyboardMarkup:
         callback_data="translate_normal_to_slang"
     ))
     builder.add(InlineKeyboardButton(
-        text="Назад в меню",
+        text="⬅️Назад в меню",
         callback_data="back_to_main"
     ))
     
